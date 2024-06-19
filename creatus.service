@@ -1,0 +1,10 @@
+[Unit]
+Description=
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/creatus
+
+[Install]
+WantedBy=multi-user.target
